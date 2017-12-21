@@ -25,8 +25,8 @@ int main() {
 	Test t3;
 	Test *t4 = new Test();
 	
-	cout << t1.getV() << endl;
-//	cout << t2.getV() << endl;
-	cout << t3.getV() << endl;
-	cout << t4->getV() << endl;
+	cout << t1.getV() << endl;  // 10
+//	cout << t2.getV() << endl; 
+	cout << t3.getV() << endl;  // 10
+	cout << t4->getV() << endl; // 10
 }
