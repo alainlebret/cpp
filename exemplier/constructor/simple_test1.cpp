@@ -19,8 +19,7 @@ int Test::getV() {
 	return v_;
 }
 
-int main()
-{
+int main() {
 	Test t1;
 //	Test t2(); // ERROR : compiler asks itself if t2 is a function returning a Test object
 	Test t3(3);
