@@ -22,7 +22,7 @@ int Test::getV() {
 int main()
 {
 	Test t1;
-//	Test t2(); // ERREUR
+//	Test t2(); // ERROR : compiler asks itself if t2 is a function returning a Test object
 	Test t3(3);
 	Test *t4 = new Test();
 	
