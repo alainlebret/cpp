@@ -6,7 +6,7 @@ using namespace std;
 class Test {
 	int v_;
 public: 
-	Test() : v_(-1) { v_ = 10; };
+	Test() : v_(-1) {};
 	Test(int v);
 	int getV();
 };	
